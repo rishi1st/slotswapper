@@ -11,7 +11,7 @@ const app = express();
 
 // Enhanced CORS configuration
 app.use(cors({
-  origin: 'http://localhost:3000', 
+  origin: 'https://slotswapper-frontend-green.vercel.app', 
   credentials: true
 }));
 
